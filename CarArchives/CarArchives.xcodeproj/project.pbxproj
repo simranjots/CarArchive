@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		640D0B10243140D2001B1BEC /* AddCarDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640D0B0F243140D2001B1BEC /* AddCarDetailsViewController.swift */; };
+		640D0B1224314A3E001B1BEC /* AdminCarDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640D0B1124314A3E001B1BEC /* AdminCarDetailsViewController.swift */; };
+		640D0B1424314CE4001B1BEC /* AdminCarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640D0B1324314CE4001B1BEC /* AdminCarTableViewCell.swift */; };
+		641BC6E3242DEC0D000ED49A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641BC6E2242DEC0D000ED49A /* Data.swift */; };
+		645D57DA242D57BF00835681 /* CarDetailCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D57D9242D57BF00835681 /* CarDetailCoreData.swift */; };
+		64B373132430797200F7AD2D /* CarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B373122430797200F7AD2D /* CarDetailViewController.swift */; };
 		64B7021F242AEB53004634D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B7021E242AEB53004634D7 /* AppDelegate.swift */; };
 		64B70221242AEB53004634D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B70220242AEB53004634D7 /* ViewController.swift */; };
 		64B70224242AEB53004634D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B70222242AEB53004634D7 /* Main.storyboard */; };
@@ -16,9 +22,17 @@
 		64B70234242AF3F3004634D7 /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B70233242AF3F3004634D7 /* UserTableViewController.swift */; };
 		64B70236242AF483004634D7 /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B70235242AF483004634D7 /* CarTableViewCell.swift */; };
 		64B70238242AF8BC004634D7 /* AdminTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B70237242AF8BC004634D7 /* AdminTableViewController.swift */; };
+		64B7023C242C0268004634D7 /* coreDataLoginClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B7023B242C0268004634D7 /* coreDataLoginClass.swift */; };
+		64B7023F242C1294004634D7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B7023E242C1294004634D7 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		640D0B0F243140D2001B1BEC /* AddCarDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCarDetailsViewController.swift; sourceTree = "<group>"; };
+		640D0B1124314A3E001B1BEC /* AdminCarDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminCarDetailsViewController.swift; sourceTree = "<group>"; };
+		640D0B1324314CE4001B1BEC /* AdminCarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminCarTableViewCell.swift; sourceTree = "<group>"; };
+		641BC6E2242DEC0D000ED49A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		645D57D9242D57BF00835681 /* CarDetailCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailCoreData.swift; sourceTree = "<group>"; };
+		64B373122430797200F7AD2D /* CarDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailViewController.swift; sourceTree = "<group>"; };
 		64B7021B242AEB52004634D7 /* CarArchives.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarArchives.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B7021E242AEB53004634D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64B70220242AEB53004634D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +44,8 @@
 		64B70233242AF3F3004634D7 /* UserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
 		64B70235242AF483004634D7 /* CarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
 		64B70237242AF8BC004634D7 /* AdminTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminTableViewController.swift; sourceTree = "<group>"; };
+		64B7023B242C0268004634D7 /* coreDataLoginClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreDataLoginClass.swift; sourceTree = "<group>"; };
+		64B7023E242C1294004634D7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		645D57D7242D4B7900835681 /* Tableview Cells */ = {
+			isa = PBXGroup;
+			children = (
+				64B70235242AF483004634D7 /* CarTableViewCell.swift */,
+				640D0B1324314CE4001B1BEC /* AdminCarTableViewCell.swift */,
+			);
+			path = "Tableview Cells";
+			sourceTree = "<group>";
+		};
+		645D57D8242D577800835681 /* CarDetils CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				645D57D9242D57BF00835681 /* CarDetailCoreData.swift */,
+			);
+			path = "CarDetils CoreData";
+			sourceTree = "<group>";
+		};
+		645D57DB242D57E400835681 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				641BC6E2242DEC0D000ED49A /* Data.swift */,
+				64B7021E242AEB53004634D7 /* AppDelegate.swift */,
+				64B70222242AEB53004634D7 /* Main.storyboard */,
+				64B70228242AEB6D004634D7 /* Assets.xcassets */,
+				64B7022A242AEB6D004634D7 /* LaunchScreen.storyboard */,
+				64B70225242AEB53004634D7 /* CarArchives.xcdatamodeld */,
+				64B7022D242AEB6D004634D7 /* Info.plist */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		64B70212242AEB52004634D7 = {
 			isa = PBXGroup;
 			children = (
@@ -62,18 +109,43 @@
 		64B7021D242AEB52004634D7 /* CarArchives */ = {
 			isa = PBXGroup;
 			children = (
-				64B7021E242AEB53004634D7 /* AppDelegate.swift */,
-				64B70220242AEB53004634D7 /* ViewController.swift */,
-				64B70222242AEB53004634D7 /* Main.storyboard */,
-				64B70228242AEB6D004634D7 /* Assets.xcassets */,
-				64B7022A242AEB6D004634D7 /* LaunchScreen.storyboard */,
-				64B7022D242AEB6D004634D7 /* Info.plist */,
-				64B70225242AEB53004634D7 /* CarArchives.xcdatamodeld */,
-				64B70233242AF3F3004634D7 /* UserTableViewController.swift */,
-				64B70235242AF483004634D7 /* CarTableViewCell.swift */,
-				64B70237242AF8BC004634D7 /* AdminTableViewController.swift */,
+				645D57D8242D577800835681 /* CarDetils CoreData */,
+				64B70239242BE0BE004634D7 /* Tableview Controllers */,
+				645D57D7242D4B7900835681 /* Tableview Cells */,
+				64B7023D242C123C004634D7 /* ViewControllers */,
+				64B7023A242C0201004634D7 /* Login */,
+				645D57DB242D57E400835681 /* Model */,
 			);
 			path = CarArchives;
+			sourceTree = "<group>";
+		};
+		64B70239242BE0BE004634D7 /* Tableview Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				64B70233242AF3F3004634D7 /* UserTableViewController.swift */,
+				64B70237242AF8BC004634D7 /* AdminTableViewController.swift */,
+				64B373122430797200F7AD2D /* CarDetailViewController.swift */,
+				640D0B1124314A3E001B1BEC /* AdminCarDetailsViewController.swift */,
+			);
+			path = "Tableview Controllers";
+			sourceTree = "<group>";
+		};
+		64B7023A242C0201004634D7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				64B7023B242C0268004634D7 /* coreDataLoginClass.swift */,
+				64B7023E242C1294004634D7 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		64B7023D242C123C004634D7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				64B70220242AEB53004634D7 /* ViewController.swift */,
+				640D0B0F243140D2001B1BEC /* AddCarDetailsViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,12 +219,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				640D0B10243140D2001B1BEC /* AddCarDetailsViewController.swift in Sources */,
+				64B373132430797200F7AD2D /* CarDetailViewController.swift in Sources */,
+				645D57DA242D57BF00835681 /* CarDetailCoreData.swift in Sources */,
 				64B70221242AEB53004634D7 /* ViewController.swift in Sources */,
 				64B70238242AF8BC004634D7 /* AdminTableViewController.swift in Sources */,
+				64B7023F242C1294004634D7 /* LoginViewController.swift in Sources */,
+				641BC6E3242DEC0D000ED49A /* Data.swift in Sources */,
 				64B70227242AEB53004634D7 /* CarArchives.xcdatamodeld in Sources */,
 				64B70234242AF3F3004634D7 /* UserTableViewController.swift in Sources */,
+				640D0B1224314A3E001B1BEC /* AdminCarDetailsViewController.swift in Sources */,
 				64B7021F242AEB53004634D7 /* AppDelegate.swift in Sources */,
 				64B70236242AF483004634D7 /* CarTableViewCell.swift in Sources */,
+				640D0B1424314CE4001B1BEC /* AdminCarTableViewCell.swift in Sources */,
+				64B7023C242C0268004634D7 /* coreDataLoginClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,15 +378,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = CarArchives/Info.plist;
+				INFOPLIST_FILE = CarArchives/Model/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.simranjot.CarArchives;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simranjot.cararchives;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -318,15 +398,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = CarArchives/Info.plist;
+				INFOPLIST_FILE = CarArchives/Model/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.simranjot.CarArchives;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simranjot.cararchives;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
